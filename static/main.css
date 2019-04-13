@@ -1,0 +1,126 @@
+@import url('Fjalla_One/FjallaOne-Regular.ttf');
+@import url('Montserrat/Montserrat-Medium.ttf');
+@import url('Montserrat/Montserrat-ExtraLight.ttf');
+
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background: #141414;
+}
+
+a {
+    text-decoration: none;
+}
+
+#mainContainer {
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-rows: 80px 450px 125px;
+}
+
+#navBar {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+#logoSide {
+    height: 80px;
+}
+
+#logoWrapper {
+    width: 83px;
+    height: auto;
+}
+
+#logo {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    background: url('Sketch.jpg');
+    background-size: contain;
+    border: 2px solid #21AA93;
+}
+
+#menuSide {
+    height: 80px;
+}
+
+#menuContainer {
+    width: 80%;
+    margin: 0 auto;
+    /*background: red;*/
+    margin-top: 35px;
+}
+
+#menuContainer ul {
+    margin: 0 auto;
+}
+
+#menuContainer ul li {
+    display: inline;
+}
+
+#menuContainer ul li a {
+    text-decoration: none;
+    margin-left: 20px;
+    color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+}
+
+#contact {
+    padding: 10px;
+    background: #21AA93;
+    display: inline;
+}
+
+#contact span {
+    color: #FFFFFF;
+    font-size: 14px;
+}
+
+/*#contentDiv {
+    background: wheat;
+}*/
+
+#headingDiv {
+    width: 700px;
+    height: 200px;
+    margin: 180px auto;
+    background: #141414;
+    text-align: center;
+}
+
+#headingDiv span {
+    color: #21AA93;
+}
+
+#headingDiv h1 {
+    margin: 5px;
+    color: #FFFFFF;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 60px;
+}
+
+#downRes {
+    width: 170px;
+    padding: 10px;
+    margin: 10px auto;
+    background: black;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+#downRes span {
+    color: #21AA93;
+}
+
+#downRes:hover {
+    cursor: pointer;
+}
+
